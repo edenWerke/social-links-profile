@@ -1,0 +1,232 @@
+    /* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
+    
+    @font-face {
+        font-family: Inter;
+        src: url();
+    }
+    
+    @font-face {
+        font-family: bold;
+        src: url(assets/fonts/static/Inter-SemiBold.ttf);
+    }
+    
+    @font-face {
+        font-family: thin;
+        src: url(assets/fonts/static/Inter-Regular.ttf);
+    }
+    
+    @font-face {
+        font-family: thin;
+        src: url(assets/fonts/static/);
+    }
+    
+    @font-face {
+        font-family: git;
+        src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    }
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box
+    }
+    
+    .img1 {
+        /*width: 100%;
+    */
+        /*height: 100vh;
+    */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        padding-bottom: 30px;
+        /* background-color: paleturquoise; */
+    }
+    
+    .image2 {
+        width: 90px;
+        height: 90px;
+        border-radius: 80px;
+        overflow: hidden;
+        margin-top: 30px;
+        /*display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+    }
+    
+    .js {
+        /* font-size: 25px; */
+        color: white;
+        padding-bottom: 10px;
+        font-family: bold;
+        text-align: center;
+        overflow: hidden;
+        /* font-weight: 550; */
+    }
+    
+    .ld {
+        font-size: 14px;
+        color: hsl(75, 94%, 57%);
+        font-family: thin;
+        text-align: center;
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+    
+    .frontend {
+        font-size: 14px;
+        font-weight: 100;
+        color: white;
+        font-family: thin;
+        text-align: center;
+        padding-bottom: 16px;
+        /* overflow: hidden; */
+    }
+    /* .jessica {
+            overflow: hidden;
+            padding-bottom: 0px;
+            } */
+    
+    a {
+        font-size: 14px;
+        font-family: bold;
+        text-decoration: none;
+    }
+    
+    .git:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: black;
+        cursor: pointer;
+    }
+    
+    .mentor:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: black;
+        cursor: pointer;
+    }
+    
+    .li:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: black;
+        cursor: pointer;
+    }
+    
+    .tw:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: black;
+        cursor: pointer;
+    }
+    
+    .in:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: black;
+        cursor: pointer;
+    }
+    
+    .git {
+        text-decoration: none;
+        height: 40px;
+        width: 300px;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 20%);
+        margin-left: 19px;
+        text-align: center;
+        font-family: bold;
+        /* font-size: 54px; */
+        font-size: 60px;
+        /*border-color: aqua;
+    */
+        border-radius: 8px;
+        align-items: center;
+        font-size: 9px;
+        padding-top: 12px;
+        /* padding-bottom: 30px; */
+        margin-bottom: 20px;
+    }
+    
+    .mentor {
+        height: 40px;
+        width: 300px;
+        background-color: hsl(0, 0%, 20%);
+        margin-left: 19px;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        border-radius: 8px;
+        align-items: center;
+        font-size: 9px;
+        padding-top: 12px;
+        /* padding-bottom: 30px; */
+        margin-bottom: 20px;
+        font-family: bold;
+    }
+    
+    .li {
+        height: 40px;
+        width: 300px;
+        background-color: hsl(0, 0%, 20%);
+        margin-left: 19px;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        border-radius: 8px;
+        align-items: center;
+        font-size: 9px;
+        padding-top: 12px;
+        /* padding-bottom: 30px; */
+        margin-bottom: 20px;
+        font-family: bold;
+    }
+    
+    .tw {
+        font-family: bold;
+        height: 40px;
+        width: 300px;
+        background-color: hsl(0, 0%, 20%);
+        margin-left: 19px;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        border-radius: 8px;
+        align-items: center;
+        font-size: 9px;
+        padding-top: 12px;
+        margin-bottom: 20px;
+    }
+    
+    .in {
+        height: 40px;
+        width: 300px;
+        background-color: hsl(0, 0%, 20%);
+        margin-left: 19px;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        border-radius: 8px;
+        align-items: center;
+        font-size: 9px;
+        padding-top: 12px;
+        /* padding-bottom: 30px; */
+        margin-bottom: 20px;
+        font-family: bold;
+    }
+    
+    body {
+        background-color: hsl(0, 0%, 8%);
+        font-family: Inter, sans-serif;
+    }
+    
+    .box {
+        background-color: hsl(0, 0%, 12%);
+        /* background-color: orange; */
+        height: 570px;
+        width: 340px;
+        margin-left: 600px;
+        margin-top: 120px;
+        border-radius: 12px;
+    }
